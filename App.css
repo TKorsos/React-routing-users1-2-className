@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+.App-header {
+  background-color: #242424;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: lightgray;
+}
+
+.App-link {
+  color: #fb61fb;
+}
+
+.App-link:hover {
+  text-shadow: 0 0 1rem lightgray;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* */
+
+.select-header {
+  background-color: beige;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+home, users, todos
+*/
+
+.header {
+  background-color: red;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav > div {
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.main {
+  display: flex;
+}
+
+.main > div {
+  flex: 50%;
+}
+
+#home_footer {
+  text-align: center;
+  background-color: cyan;
+}
+
+#users1_footer {
+  text-align: center;
+  background-color: magenta;
+}
+
+#users2_footer {
+  text-align: center;
+  background-color: yellow;
+}
+
+.user_color:nth-of-type(odd) {
+  background-color: orange;
+}
